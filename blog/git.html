@@ -1,59 +1,42 @@
 
 <!DOCTYPE html>
 
+<html>
+
+  </body>
+
+    <head>
 
 
-
-<head>
-
-
- <title>Your page title here</title>
+     <title>Technical Blog</title>
 
 
- <meta charset="UTF-8">
+     <meta charset="UTF-8">
 
 
- <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+     <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+
+    </head>
 
 
-</head>
-
-
-<body>
+  <body>
 
 
  <main>
 
 
-   <h1>Post Title</h1>
-
-
-   <h2>The subtitle, if you want it</h2>
-
-
-   <h4>Today's Date</h4>
-
-
-
-
-
+   <h1>What are the benefits of version control</h1>
+   <h4>Feb-12-2016</h4>
 
    <section>
 
 
      <p>
-
-
-       Your first paragraph goes here. I'm using Web 2.0 Ipsum to add content. Webtwo ipsum dolor sit amet, eskobo chumby doostang bebo. Nuvvo koofers oooooc voxy klout jaiku palantir flickr insala zinch napster oooj, airbnb mzinga vimeo yuntaa balihoo plickers whrrl edmodo appjet kippt. Yoono imvu hulu eduvant blekko imvu ebay voki napster skype, hipmunk zinch wesabe bubbli ning meebo bitly zlio. Fleck elgg ideeli disqus rovio zillow sifteo blyve jabber, bitly geni zoho foodzie qeyno twones klout jiglu, hipmunk jaiku balihoo plickers heekya eskobo yuntaa. Sococo whrrl plickers movity whrrl zinch voki nuvvo meebo, quora heroku unigo kno wufoo jibjab woopra, groupon yuntaa spock mzinga jumo meebo movity.
-
-
-     </p>
-
-
-     <p>
-
-
-         Lijit groupon ning stypi eskobo blyve ning shopify oooooc, meebo groupon prezi ebay voxy bitly diigo. Spock ifttt skype hipmunk movity whrrl bebo oooj empressr, disqus insala palantir bitly dropio zimbra zinch oooooc etsy, klout spock insala quora omgpop trulia jibjab. Sifteo dogster ebay grockit geni scribd bitly ning unigo, plickers voki mzinga tumblr kaboodle mozy whrrl woopra udemy, foodzie joukuu elgg twitter shopify akismet rovio. Kosmix eduvant woopra dopplr balihoo ning bebo akismet, boxbe vimeo kosmix shopify zappos bitly geni loopt, qeyno disqus sococo squidoo wikia octopart.
+        Developer use it achieve following goals
+maintain different version of software
+revert changes 
+easy backup
+more than one developer can work on project
 
 
      </p>
@@ -62,7 +45,49 @@
      <p>
 
 
-         Kazaa meevee eduvant gsnap movity kosmix kazaa klout jumo, trulia unigo groupon wakoopa spock knewton glogster heroku oooj, ning imvu appjet eskobo zillow twitter rovio. Glogster chegg voxy greplin dopplr voki foodzie xobni weebly odeo, sococo zynga knewton loopt palantir lala blyve tumblr blekko, twones akismet plaxo kippt meebo zillow zooomr insala. Oovoo imeem napster divvyshot zinch imeem voxy shopify, fleck kazaa zinch lanyrd boxbe joost wakoopa nuvvo, orkut elgg heekya sifteo scribd napster. Yammer yoono groupon dopplr cloudera nuvvo eduvant klout, voxy groupon disqus eduvant oooj greplin.
+         Git is a widely used “source code management system” for software development. It is the management of changes to documents, computer programs, large web sites, and other collections of information. Git is like an App that runs locally on user's machine. 
+Git
+Repository
+A repository is a special directory which has all the features of version control system.
+you can create a local repository by
+create a directory
+type command - git init
+or you can clone an existing repository by
+git clone /path/to/directory 
+on a remote machine - git clone username@host:/path/to/directory 
+
+Workflow
+you local directory consist of three trees:
+working directory - which has all the actual files
+you add files which have been changed - git add *
+actual commit would save those files in local repository - git commit “message”
+
+Push Changes
+To send these changes to remote repository, type command
+git push origin <branch-name>
+
+
+
+     </p>
+
+
+     <p>
+
+
+         GitHub
+GitHub is web based repository hosting service. A web based model allows multiple users to work on same project. This way all the changes are synced and developers across the globe can keep up with progress. This can be accomplished as follows.
+
+Update and Merge
+Developer 1 can get the latest repository by pull request.
+git pull
+After making changes to his files, developer 1 can push changes, so repository is synced.
+git push origin master
+developer 2 and developer 3 can sync their local repositories by doing git pull (it will merge latest changes)
+
+Explain what version control is and how GitHub helps with it.
+Version Control is a widely used “source code management system” for software development. It is the management of changes to documents, computer programs, large web sites, and other collections of information.
+GitHub is a repository hosting service. It’s flagship feature is “forking”. Forking is copying a repository from one user’s account to another. This enables you to take a project that you don’t have write access to and modify it under your own account. If you make changes you’d like to share, you can send a notification called a “pull request” to the original owner. That user can then, with a click of a button, merge the changes found in your repo with the original repo.
+
 
 
      </p>
