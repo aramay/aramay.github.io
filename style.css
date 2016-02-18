@@ -1,13 +1,16 @@
 body {
-    text-align: center;
+    width: 90%;
+    border-width: 2px;
+    border-style: solid;
+    margin: 0 auto;
+}
+
+table {
+    width: 70%;
     border-width: 2px;
     border-style: solid;
 }
 
-table {
-    width: 60%;
-    border-width: 2px;
-    border-style: solid;
-
-
+.home-page{
+  width: 70%;
 }
