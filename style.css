@@ -11,6 +11,19 @@ table {
     border-style: solid;
 }
 
-.home-page{
+#home-page{
   width: 70%;
+  border-width: 2px;
+    border-style: solid;
+}
+
+img.profile-pic {
+  float: left;
+
+  width: 30%;
+  padding: 5px;
+}
+p {
+  width: 70%;
+  position: relative;
 }
