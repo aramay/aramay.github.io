@@ -1,2 +1,16 @@
 
+*{
+  border-style: solid;
+}
 
+
+body{
+  width: 90%;
+  margin: 0 auto;
+  border-style: solid;
+
+}
+
+#blog-body{
+  border-style: solid;
+}
