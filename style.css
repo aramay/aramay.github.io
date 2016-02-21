@@ -1,11 +1,14 @@
+*{
+  text-align: center;
+}
 body {
-    width: 90%;
+    width: 960px;
     border-width: 2px;
     border-style: solid;
     margin: 0 auto;
 }
 
-table {
+table{
     width: 100%;
     border-width: 2px;
     border-style: solid;
@@ -15,27 +18,35 @@ table {
   width: 100%;
   border-width: 2px;
   border-style: solid;
+  overflow: auto;
+  height: 100%;
 }
 
-img.profile-pic {
+.pic, .profile-pic{
+
+  width: 47.91%;
+  height: 47.91%;
   float: left;
-  min-width: 150px;
-  max-width: 200px;
-  display: inline-block;
+  margin: 10px;
 
+
+
+  }
+
+  .content{
+
+  width: 45.83%;
+  float: left;
+  margin: 10px;
 
 }
-.landing-page {
-  background-color: #efefef;
+
+
+footer{
+
   width: 100%;
+  margin: 10px;
 
-  min-width: 150px;
-  max-width: 500px;
-  float: left;
-
-}
-
-.footer{
 
 
 }
