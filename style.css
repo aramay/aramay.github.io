@@ -6,24 +6,37 @@ body {
 }
 
 table {
-    width: 70%;
+    width: 100%;
     border-width: 2px;
     border-style: solid;
 }
 
 #home-page{
-  width: 70%;
+  width: 100%;
   border-width: 2px;
-    border-style: solid;
+  border-style: solid;
 }
 
 img.profile-pic {
   float: left;
+  min-width: 150px;
+  max-width: 200px;
+  display: inline-block;
 
-  width: 30%;
-  padding: 5px;
+
 }
-p {
-  width: 70%;
-  position: relative;
+.landing-page {
+  background-color: #efefef;
+  width: 100%;
+
+  min-width: 150px;
+  max-width: 500px;
+  float: left;
+
 }
+
+.footer{
+
+
+}
+
