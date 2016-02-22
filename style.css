@@ -1,29 +1,53 @@
+*{
+  text-align: center;
+}
 body {
-    width: 90%;
+    width: 960px;
     border-width: 2px;
     border-style: solid;
     margin: 0 auto;
 }
 
-table {
-    width: 70%;
+table{
+    width: 100%;
     border-width: 2px;
     border-style: solid;
 }
 
 #home-page{
-  width: 70%;
+  width: 100%;
   border-width: 2px;
-    border-style: solid;
+  border-style: solid;
+  overflow: auto;
+  height: 100%;
 }
 
-img.profile-pic {
+.pic, .profile-pic{
+
+  width: 47.91%;
+  height: 47.91%;
   float: left;
+  margin: 10px;
 
-  width: 30%;
-  padding: 5px;
+
+
+  }
+
+  .content{
+
+  width: 45.83%;
+  float: left;
+  margin: 10px;
+
 }
-p {
-  width: 70%;
-  position: relative;
+
+
+footer{
+
+  width: 100%;
+  margin: 10px;
+
+
+
 }
+
