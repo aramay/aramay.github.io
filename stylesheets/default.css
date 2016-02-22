@@ -1,35 +1,42 @@
 *{
   text-align: center;
+  font-family: Arial, Verdana, sans-serif;
+
 }
 body {
-    width: 960px;
-    border-width: 2px;
-    border-style: solid;
+    width: 90%;
+
     margin: 0 auto;
 }
 
 table{
     width: 100%;
-    border-width: 2px;
-    border-style: solid;
+
+    background-color: #B4B3D6;
+
 }
 
 #home-page{
   width: 100%;
-  border-width: 2px;
-  border-style: solid;
+
   overflow: auto;
   height: 100%;
 }
 
-.pic, .profile-pic{
+.pic, {
 
-  width: 47.91%;
+  width: 37.91%;
+  height: 47.91%;
+
+  margin: 10px;
+  }
+
+  .profile-pic{
+
+  width: 37.91%;
   height: 47.91%;
   float: left;
   margin: 10px;
-
-
 
   }
 
@@ -41,13 +48,17 @@ table{
 
 }
 
-
+.para{
+  text-align: left;
+}
 footer{
 
   width: 100%;
   margin: 10px;
 
+}
 
-
+li{
+  text-align: left;
 }
 
