@@ -24,7 +24,8 @@ answer the following questions:
 Easiest part was to create logical section of page. e.g 
 `<header> <body> <footer>`
 
-    Difficult part was to position boxes e.g. Using *float* property. Pitfall is that sometimes unwanted content begins to wrap around a floated element. 
+Difficult part was to position boxes e.g. 
+Using *float* property. Pitfall is that sometimes unwanted content begins to wrap around a floated element. 
 
 4. What did you learn about adding and formatting elements with CSS in this challenge?
 
@@ -37,12 +38,14 @@ Easiest part was to create logical section of page. e.g
   margin: 10px;
   }
   ```
-    I used _float_ property to place boxes next to each other
-    Used width property to control boxes per row
-    Height property to contain boxes relative to other boxes
-```.para{
+I used _float_ property to place boxes next to each other
+Used width property to control boxes per row
+Height property to contain boxes relative to other boxes
+
+```
+.para{
   text-align: left;
 }
 ```
-    This is used to align text.
+This is used to align text.
 
