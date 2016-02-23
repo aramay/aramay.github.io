@@ -1,0 +1,33 @@
+*{
+
+}
+
+body{
+  width: 90%;
+  margin: 0 auto;
+}
+
+#post-body{
+
+  width: 100%;
+
+}
+
+.content{
+  width: 72.91%;
+  float: left;
+  height: 250px;
+  overflow: hidden;
+
+
+}
+
+.thumbnail{
+  width: 27.09%;
+  float: left;
+
+}
+
+table{
+  clear: both;
+}
