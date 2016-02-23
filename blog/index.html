@@ -2,11 +2,11 @@
 
 <html>
   <head>
-    <meta charset="UTS-8">
+    <meta charset="UTF-8">
     <title>
       Blog Posts
     </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
   </head>
 
   <body>
@@ -19,21 +19,20 @@
     <div id="blog-body">
 
         <section>
-
-            <article>
-              <header>
-                <h3><a href="#" >How does git help you keep track of changes</h3>
-              </header>
+                <h3>
+                  <a href="#" >How does git help you keep track of changes</a>
+                </h3>
         </section>
 
 
         <div class="post-body">
-          <section>
+
+          <section class="thumbnail">
 
             <img src="http://placehold.it/250x250" alt="post-thumbnail">
           </section>
 
-          <section>
+          <section class="content">
 
             <p>How does tracking and adding changes make developers' lives easier?
                 Developer use it achieve following goals
@@ -68,6 +67,18 @@
                 create a file and add changes.
                 save file and exit
                 on command line type git status
+
+                What are the 3 stages of a git change and how do you move a file from one stage to the other?
+                three stages are
+                git add <filename>
+                git commit -m “message”
+                git push origin <branch-name>
+                Write a handy cheatsheet of the commands you need to commit your changes.
+                As a good practice, you should create a branch for your changes
+                type git checkout -b <feature-x>
+                create a file and add changes.
+                save file and exit
+                on command line type git status
             </p>
           </section>
         </div>
@@ -76,7 +87,6 @@
           <tr>
             <td>Author Name</td>
             <td>Date Published</td>
-            <td>Read Article</td>
           </tr>
         </table>
 
