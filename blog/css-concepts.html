@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>
+    3.6 Technical Blog
+    </title>
+    <link rel="stylesheet" href="#">
+    <meta charset="UTF-8">
+    <style type="text/css">
+
+
+
+    textarea{
+      margin: 0px;
+    width: 150px;
+    height: 100px;
+    }
+
+
+    </style>
+  </head>
+
+    <body>
+      <section>
+        <h1>What are the differences between relative, absolute, fixed, and static positioning?</h1>
+      </section>
+
+
+      <section>
+        <h2>
+          Relative Position
+
+        </h2>
+
+        <p>Relative positioing moves an element in relation to where it would have been in normal flow.
+        </p>
+
+        <figure>
+          <img src="relative/html.png" alt="html">
+        </figure>
+
+        <p>Results appears and it should</p>
+
+        <figure>
+          <img src="relative/html-result.png" alt="html-result">
+        </figure>
+
+        <p>With CSS property to paragraph tab</p>
+
+        <textarea name="css-relative" id="relative-css" cols="5" rows="1">
+
+
+          p.example {
+        position: relative;
+        top: 10px;
+        left: 100px;}
+        </textarea>
+
+        <p>Results after applied CSS changes. Use offset properties (top or bottom and left or right) to indicate how far to move an element from where it would have been in normal flow.</p>
+
+        <figure>
+          <img src="relative/html-result1.png" alt="html-result1">
+        </figure>
+
+      </section>
+
+      <section>
+        <h2>
+          Abosulute
+
+        </h2>
+
+        <p>The box is taken out of normal flow and no longer affects the position of other boxes.
+        </p>
+
+
+
+        <p>With CSS applied to heading</p>
+
+        <textarea name="css" id="relative-html" cols="5" rows="1">
+
+
+          h1 {
+        position: absolute;
+        top: 10px;
+        left: 500px;}
+        </textarea>
+
+        <figure>
+          <img src="absolute/html-absolute.png" alt="html-result">
+        </figure>
+
+        <p>The box offset properties (top or bottom and left or right) specify where the element should appear in relation to its containing element</p>
+
+
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+
+</html>
