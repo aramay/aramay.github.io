@@ -4,20 +4,21 @@
 <html>
 
   <head>
+    <meta charset="UTF-8">
     <title>
-    3.6 Technical Blog
+      3.6 Technical Blog
     </title>
     <link rel="stylesheet" href="#">
-    <meta charset="UTF-8">
+
     <style type="text/css">
 
 
 
-    textarea{
-      margin: 0px;
-    width: 150px;
-    height: 100px;
-    }
+        textarea{
+          margin: 0px;
+        width: 290px;
+        height: 244px;
+        }
 
 
     </style>
@@ -50,7 +51,7 @@
 
         <p>With CSS property to paragraph tab</p>
 
-        <textarea name="css-relative" id="relative-css" cols="5" rows="1">
+        <textarea name="css-relative" id="relative-css">
 
 
           p.example {
@@ -69,7 +70,7 @@
 
       <section>
         <h2>
-          Abosulute
+          Absolute
 
         </h2>
 
@@ -80,7 +81,7 @@
 
         <p>With CSS applied to heading</p>
 
-        <textarea name="css" id="relative-html" cols="5" rows="1">
+        <textarea name="css" id="abo-html" cols="5" rows="1">
 
 
           h1 {
@@ -90,7 +91,7 @@
         </textarea>
 
         <figure>
-          <img src="absolute/html-absolute.png" alt="html-result">
+          <img src="absolute/html-Absolute.png" alt="html-result">
         </figure>
 
         <p>The box offset properties (top or bottom and left or right) specify where the element should appear in relation to its containing element</p>
@@ -98,18 +99,80 @@
 
       </section>
 
+      <section>
+        <h2>
+          Fixed
+
+        </h2>
+
+        <p>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+        </p>
 
 
 
+        <p>With CSS applied to heading</p>
+
+        <textarea name="css" id="fixed-html" cols="5" rows="1">
+
+
+          h1 {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        padding: 10px;
+        margin: 0px;
+        width: 100%;
+        background-color: #efefef;}
+        </textarea>
+
+        <figure>
+          <img src="fixed/html-fixed.png" alt="html-result">
+        </figure>
+
+        <p>To control where the fixed position position box appears in relation to the browser window, the box offset property is used.</p>
+
+
+      </section>
+
+      <section>
+        <h2>
+          Static
+
+        </h2>
+
+        <p>In normal flow, each block-level element sits on top of the next one. Since this is the default way in which browsers treat HTML elements, you do not need a CSSS property to indicate tht element should appear in normal flow.
+        </p>
 
 
 
+        <p>No CSS applied to heading</p>
+
+        <textarea name="css" id="static-html" cols="5" rows="1">
 
 
 
+      body {
+        width: 750px;
+        font-family: Arial, Verdana, sans-serif;
+        color: #665544;}
+      h1 {
+                top: 0px;
+        left: 0px;
+        padding: 10px;
+        margin: 0px;
+        width: 100%;
+        background-color: #efefef;}
+      p.example {
+        margin-top: 100px;}
+
+        </textarea>
+
+        <figure>
+          <img src="static/html-static.png" alt="html-result">
+        </figure>
 
 
-
+      </section>
     </body>
 
 

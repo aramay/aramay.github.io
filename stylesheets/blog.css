@@ -4,6 +4,19 @@
           box-sizing: border-box;
 }
 
+ul{
+  width: 100%;
+    background-color: #B4B3D6;
+}
+
+li{
+    text-align: center;
+    display: inline;
+    width: 50%
+
+
+}
+
 body{
   width: 90%;
   margin: 0 auto;
@@ -13,10 +26,24 @@ body{
 
   width: 100%;
 
+    border-bottom-style: solid;
+    border-top-style: solid;
+
+
+}
+
+#blog-body2{
+
+  border-bottom-style: solid;
+    border-top-style: solid;
+
 }
 
 .post-body{
   width: 100%;
+  overflow: hidden;
+
+
 }
 
 .content{
