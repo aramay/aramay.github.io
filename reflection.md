@@ -21,11 +21,11 @@ answer the following questions:
 
 3. What aspects of your design did you find easiest to implement? What was most difficult?
 
-Easiest part was to create logical section of page. e.g 
-`<header> <body> <footer>`
+  Easiest part was to create logical section of page. e.g 
+  `<header> <body> <footer>`
 
-Difficult part was to position boxes e.g. 
-Using *float* property. Pitfall is that sometimes unwanted content begins to wrap around a floated element. 
+  Difficult part was to position boxes e.g. 
+  Using *float* property. Pitfall is that sometimes unwanted content begins to wrap around a floated element. 
 
 4. What did you learn about adding and formatting elements with CSS in this challenge?
 
