@@ -1,8 +1,30 @@
 *{
   text-align: center;
-  font-family: Arial, Verdana, sans-serif;
 
 }
+
+p{
+
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: 'Roboto Mono' ;
+
+}
+
+span{
+
+font-size: xx-large;
+font-family: 'Racing Sans One', cursive;
+
+}
+
+li{
+   padding-bottom: 10px;
+    padding-top: 10px;
+}
+
 body {
     width: 90%;
 
@@ -33,10 +55,14 @@ table{
 
   .profile-pic{
 
-  width: 37.91%;
+  width: 47.91%;
   height: 47.91%;
   float: left;
-  margin: 10px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
 
   }
 
