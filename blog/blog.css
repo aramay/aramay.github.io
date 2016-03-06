@@ -1,0 +1,17 @@
+body{
+  width: 75%;
+  margin: 0 auto;
+}
+
+header{
+  font-family: 'Open Sans Light',Helvetica,Arial,sans-serif;
+    font-weight: 200;
+}
+section{
+  background: #DDE4E9;
+}
+
+code{
+  /*/color: #0095dd;*/
+  background-color: #A1BB89;
+}
