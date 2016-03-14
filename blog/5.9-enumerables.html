@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>
+    5.9 Enumerables
+  </title>
+  <link rel="stylesheet" type="text/css" href="blog.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>
+      5.9 Enumerables
+    </h1>
+  </header>
+
+  <section>
+    <article>
+      <h2>
+        Enumerable#map
+      </h2>
+      <p>
+        The Enumerable module provides a set of methods to traverse, search, sort and manipulate collections.
+      </p>
+
+      <p>
+        Without enumerables, we would have access index of an array to manipulate data.
+      </p>
+
+      <div>
+        <script src="https://gist.github.com/kasper341/a403b946a669f2db1d3b.js">
+        </script>
+      </div>
+
+      <p>
+        With <code>map</code>, it Invokes the given block once for each element with a new array containing the values returned by the block.
+      </p>
+
+      <script src="https://gist.github.com/kasper341/b42fabe1d70cfefad63c.js"></script>
+
+      <h3>
+        Bang Methods -Destructive Methods
+      </h3>
+
+      <p>
+        Methods that end in <code>!</code> indicate that the method will modify the object it's called on. Ruby calls these "dangerous methods" because they change state.
+      </p>
+
+      <script src="https://gist.github.com/kasper341/2492f462a489c3ebe0c5.js"></script>
+
+      <p>
+        We can extend this functionality by chaining other enumerables e.g. <code>with_index</code>
+      </p>
+
+      <script src="https://gist.github.com/kasper341/aa6a585cea115276949a.js"></script>
+
+    </article>
+  </section>
+
+
+</body>
+
+
+</html>
