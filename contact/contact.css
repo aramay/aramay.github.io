@@ -1,3 +1,8 @@
+.header {
+  text-align: center;
+
+}
+
 table{
     width: 100%;
     background-color: #B4B3D6;
@@ -6,4 +11,21 @@ table{
 body {
     width: 90%;
     margin: 0 auto;
+}
+
+.container{
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content: {
+
+    text-align: left;
+}
+
+img{
+  height: 100px;
+    width: 100px;
+
 }
