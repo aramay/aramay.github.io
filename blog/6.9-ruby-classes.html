@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>
+  6.9 Ruby Classes
+  </title>
+  <link rel="stylesheet" type="text/css" href="blog.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>
+      6.9 Ruby Classes
+    </h1>
+  </header>
+
+  <section>
+    <article>
+      <h2>
+        What is a Class?
+      </h2>
+      <p>
+        In object-oriented programming, a class is an extensible program-code-template for creating objects, providing initial values for state (member variables) and implementations of behavior (member functions or methods).
+      </p>
+
+      <p>
+        In my previous [post,link], i have written about Arrays and Hashes they've generally been independent of each other. We covered basics e.g. declaration, accessing array values via indexes etc and
+      </p>
+
+      <p>
+        Now we'll cover Classes to make life easier, by organizing  data for re-use , readability and maintenance.
+      </p>
+
+      <div>
+        <script src="https://gist.github.com/kasper341/d8fc9558cbf9fda4ec4c.js"></script>
+      </div>
+
+      <p>
+        Above example shows a simple class. This class can be used to store customer data. We start with ketword <code>Class</code> followed by a name. On Lines 11 we said <code>customer = Person.new</code> Now this is called class <code>object</code>.
+      </p>
+
+      <h3>
+        Class Objects
+      </h3>
+
+      <p>
+        In the class-based object-oriented programming paradigm, "object" refers to a particular instance of a class where the object can be a combination of variables, functions, and data structures.
+      </p>
+
+      <script src="https://gist.github.com/kasper341/ee302505cc4a8f87dbce.js"></script>
+
+      <p>
+        On Line 5 we created a method <code>setname</code> and used object <code>customer</code> to call that method on Line 11.
+      </p>
+
+      <p>
+        Because of this new code, we can store names for multiple customers.
+      </p>
+
+      <script src="https://gist.github.com/kasper341/5b958169293444bf9f67.js"></script>
+
+      <p>
+        On Line 16, i called <code>setname</code> method with new value, and re-use my code.
+      </p>
+
+      <h3>
+        Class Instance Varaibles
+      </h3>
+
+      <p>
+        Instance varaibles can be accessed through out the life cycle of our class.
+      </p>
+
+      <script src="https://gist.github.com/kasper341/6db4de5c808b9edc4346.js"></script>
+
+      <p>
+        Here we added a new method <col>getname</col> and called it on Line 22. But guess what, Ruby throughs an error
+      </p>
+
+      <p>
+        <code>NameError: undefined local variable or method `name' for #<Person:0x0000000
+        145bc20>
+        from solution.rb:15:in `getname' </code>
+      </p>
+
+      <p>It looks like variable <code>name</code> does not exist. We  can fix this by instance varaibles by using <code>@</code> sumbol before varaible name </p>
+
+      <script src="https://gist.github.com/kasper341/9cf9bf4e73fe4189a006.js"></script>
+
+      <p>
+        Now with our fix, we can access <code>name</code> varaible through out our class.
+      </p>
+
+    </article>
+  </section>
+
+
+</body>
+
+
+</html>
