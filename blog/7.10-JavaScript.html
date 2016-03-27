@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>
+    Ruby Hashes vs. JavaScript Objects
+  </title>
+  <link rel="stylesheet" type="text/css" href="blog.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>
+      Ruby Hashes vs. JavaScript Objects
+    </h1>
+  </header>
+
+  <section>
+    <article>
+      <h2>
+        JavaScript Objects
+      </h2>
+      <p>
+        So Ruby and Javascript are fairly similar as they both use Object Oriented Programming.They can create these elements called <em>Objects</em> that represent some form of data as opposed to <em>actions</em>. This makes it much easier for the programmer to manipulate an objects data.
+      </p>
+
+      <p>
+        This post in simply an overview of the differences/similarities between Ruby Hashes and JavaScript Objects.
+      </p>
+
+      <p>
+        Objects in JavaScript can also be used as Hashmaps; they mainly consist of named <code>properties</code> mapping to <code>values</code>.
+      </p>
+
+      <div>
+        <script src="https://gist.github.com/kasper341/85aaea702c15efa4c5e5.js"></script>
+      </div>
+
+      <p>
+        Above example shows using an object literal - <code>{}</code> notation - it is possible to create a plain object.
+      </p>
+
+      <h3>
+        JS - Accessing Properties
+      </h3>
+
+      <p>
+        The properties can be accessed via two ways, either via <code>.</code> notation or using <code>[ ]</code> square bracket notation.
+      </p>
+
+      <script src="https://gist.github.com/kasper341/262d30fa52af3eac67e6.js"></script>
+
+      <h3>
+        Ruby - Hashes
+      </h3>
+
+      <p>
+        A Hash is a collection of key-value pairs like this: "employee" => "salary". It is similar to an Array, except that indexing is done via arbitrary keys of any object type, not an integer index.
+      </p>
+
+      <p>
+        We can create a Hash in Ruby using a literal <code>{ }</code>.
+      </p>
+
+      <script src="https://gist.github.com/kasper341/1b999755242b01282116.js"></script>
+
+      <h3>
+        Interacting with a Hash in Ruby
+      </h3>
+
+      <p>
+        Accessing keys in Hashes can be achieved via several build-in methods.
+      </p>
+
+      <script src="https://gist.github.com/kasper341/d5b3c26d018ee193cafd.js"></script>
+
+      <p>
+        Here in the above example, we used <code>.keys</code> to return keys in out Hash.
+
+        Nest we used <code>.kas_key?</code> which returns <em>true</em> or <em>false</em> if Hash contains the key.
+
+        I think remaining methods are self explanatory, if i not why not give it a try yourself.
+
+      </p>
+
+    </article>
+  </section>
+
+
+</body>
+
+
+</html>
