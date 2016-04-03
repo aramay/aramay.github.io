@@ -1,0 +1,9 @@
+.content-body-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content-container{
+  float: left;
+  width: 45%;
+}
