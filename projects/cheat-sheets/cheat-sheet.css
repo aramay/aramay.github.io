@@ -7,3 +7,16 @@
   float: left;
   width: 45%;
 }
+
+code{
+
+  background-color: #A1BB89;
+}
+
+section{
+  background: #DDE4E9;
+}
+
+.margin-content-container{
+  margin-left: 25px;
+}
