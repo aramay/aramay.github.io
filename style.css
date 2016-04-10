@@ -1,0 +1,25 @@
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    /*background: #7986CB ;*/
+    /*color:floralwhite;
+*/
+}
+
+.profile-pic{
+  width: 95%;
+}
+
+.row-footer{
+    background-color:#EEE;
+    /*background-color: #AfAfAf;*/
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
