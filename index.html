@@ -1,50 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Portfolio</title>
 
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 
-<head>
-    <meta charset="UTF-8">
-    <title>
-        Professional Portfolio
-    </title>
-    <meta name="author" content="Abid Ramay">
-    <link rel="stylesheet" href="stylesheets/default.css">
+    <link href="style.css" rel="stylesheet">
 
-    <link href='https://fonts.googleapis.com/css?family=Racing+Sans+One' rel='stylesheet' type='text/css'>
+    <!--font-awesome library-->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!--bootstrap social library-->
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
 
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400italic' rel='stylesheet' type='text/css'>
-</head>
-
-<body>
-    <section class="header">
+    <section class="jumbotron">
         <header>
             <h1>Portfolio</h1>
         </header>
     </section>
 
-    <nav class="nav">
-        <table>
-            <tr>
-                <td><a href="projects/index.html">Projects</a>
-                </td>
-                <td><a href="blog/index.html">Blog</a>
-                </td>
-                <td><a href="contact/contact.html">Contact Me</a>
-                </td>
-            </tr>
-        </table>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <ul class="nav navbar-nav">
+
+            <li class="active">
+              <a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a>
+            </li>
+            <li><a href="projects/index.html">Projects</a>
+            </li>
+            <li><a href="blog/index.html">Blog</a>
+            </li>
+            <li><a href="contact/contact.html">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
+    <!--start layout container-->
+    <section class="container">
+        <!--star grid row-->
+        <div class="row row-content">
 
-    <div id="home-page">
+          <div class="col-xs-2 col-md-6">
+            <figure>
+              <img src="imgs/prof-pic.png" class="profile-pic" alt="profile_pic">
+            </figure>
 
-        <div class="pic">
-            <img src="imgs/prof-pic.png" class="profile-pic" alt="profile_pic">
-        </div>
+          </div>
 
-        <div class="content">
-
-
+          <div class="col-xs-8 col-md-6">
             <p>
                 <span>S</span>oftware <span>E</span>ngineer with 5 years of experience.
             </p>
@@ -66,21 +86,65 @@
                 Now i am working with Dev bootcamp to become an aspiring
                 developer. Checkout my blog, it's a work in progress.
             </p>
-
             <p>
                 This site will never be a finished product, so please forgive the little inconsistencies. If it’s an obvious bug, I’d love it if you let me know.
             </p>
 
-
         </div>
-    </div>
+      </div>
+      <!--end grid row-->
 
-    <footer>
-     Date:02/25/2016
- </footer>
+    </section>
+    <!--end layout container-->
+
+    <footer class="row-footer navbar-fixed-bottom">
+      <div class="container">
+
+        <div class="row">
+          <h5>Links</h5>
+          <div class="col-md-6">
+            <ul class="list-unstyled">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Projects</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="col-xs-12 col-md-6">
+
+            <div class="nav navbar-nav" style="padding: 40px 10px;">
+              <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+              <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+              <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+              <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+              <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+              <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+            </div>
+
+          </div>
+        </div>
 
 
+      </div>
 
-</body>
+      <div class="row">
+        <div class="col-md-12">
+          Date:02/25/2016
+        </div>
+      </div>
 
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
